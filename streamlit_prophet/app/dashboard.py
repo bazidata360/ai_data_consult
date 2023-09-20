@@ -45,7 +45,7 @@ from streamlit_prophet.lib.models.prophet import forecast_workflow
 from streamlit_prophet.lib.utils.load import load_config, load_image
 
 # Page config
-st.set_page_config(page_title="Prophet", layout="wide")
+st.set_page_config(page_title="AI DATA CONSULTANCY", layout="wide")
 
 # Load config
 config, instructions, readme = load_config(
@@ -63,7 +63,7 @@ with st.expander(
     st.write(readme["app"]["app_intro"])
     st.write("")
 st.write("")
-st.sidebar.image(load_image("logo.png"), use_column_width=True)
+st.sidebar.image(load_image("logo1.png.png"), use_column_width=True)
 display_links(readme["links"]["repo"], readme["links"]["article"])
 
 
